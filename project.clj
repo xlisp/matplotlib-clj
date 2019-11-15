@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [cnuernber/libpython-clj "1.6"]
                  [techascent/tech.datatype "4.50"]]
-  :repl-options {:init-ns matplotlib-clj.core})
+  :repl-options {:init-ns matplotlib-clj.core}
+  :main matplotlib-clj.core)

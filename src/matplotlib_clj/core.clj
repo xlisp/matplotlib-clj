@@ -31,3 +31,8 @@
   (py/call-attr plt "ylabel" "y label")
   (py/call-attr plt "title" "Simple Plot")
   (py/call-attr plt "legend"))
+
+(defn -main [& args]
+  (plot-it)
+  (py/call-attr plt "show"))
+
