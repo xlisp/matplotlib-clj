@@ -14,6 +14,10 @@
 
 (init-macox)
 
+(def mplot (py/import-module "matplotlib"))
+
+(py/call-attr mplot "use" "WebAgg")
+
 (def mfig (py/import-module "matplotlib.figure"))
 (def magg (py/import-module "matplotlib.backends.backend_agg"))
 (def np (py/import-module "numpy"))
